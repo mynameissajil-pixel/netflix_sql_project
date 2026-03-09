@@ -37,6 +37,13 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+select * from netflix;
+
+select count(*) as total_count
+from netflix;
+
+SELECT DISTINCT type
+from netflix;
 ```
 
 ## Business Problems and Solutions
